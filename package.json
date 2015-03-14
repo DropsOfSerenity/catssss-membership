@@ -4,9 +4,11 @@
   "description": "A membership system pattern based on devise.",
   "main": "index.js",
   "dependencies": {
+    "bcrypt-nodejs": "0.0.3",
     "grunt": "^0.4.5",
     "grunt-contrib-jshint": "^0.11.0",
-    "grunt-contrib-watch": "^0.6.1"
+    "grunt-contrib-watch": "^0.6.1",
+    "secondthought": "0.0.4"
   },
   "devDependencies": {
     "should": "^5.2.0"
