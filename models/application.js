@@ -1,3 +1,5 @@
+'use strict';
+
 var Application = function(args) {
 
   var app = {};
@@ -10,7 +12,7 @@ var Application = function(args) {
   app.isValid = function() {
     return app.status === "validated";
   };
-  app.isInvalid =  function() {
+  app.isInvalid = function() {
     return !this.isValid();
   };
 
