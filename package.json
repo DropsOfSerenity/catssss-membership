@@ -1,6 +1,6 @@
 {
-  "name": "catssss-membership",
-  "version": "0.0.1",
+  "name": "membership",
+  "version": "0.0.2",
   "description": "A membership system pattern based on devise.",
   "main": "index.js",
   "dependencies": {
@@ -14,7 +14,7 @@
     "should": "^5.2.0"
   },
   "scripts": {
-    "test": "mocha"
+    "test": "mocha -w"
   },
   "author": "",
   "license": "ISC"
